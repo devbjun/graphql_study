@@ -1,0 +1,22 @@
+{
+  "name": "week_1",
+  "version": "1.0.0",
+  "description": "GraphQL Study",
+  "main": "server.ts",
+  "repository": "git@github.com:devbjun/graphql_study.git",
+  "author": "Jeong Jun Bak <dev_bjun@meshyarn.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/pg": "^7.14.3",
+    "nodemon": "^2.0.3",
+    "pg": "^8.0.0",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "nodemon -e ts,graphql -x ts-node server.ts"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}

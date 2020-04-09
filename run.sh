@@ -1,0 +1,1 @@
+docker run --volume $(pwd)/app:/home/app --workdir /home/app -p 4000:4000 --rm -it node:lts-buster /bin/bash

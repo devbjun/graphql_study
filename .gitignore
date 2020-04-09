@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Other file
+package-lock.json
+.idea
+.graphcoolr
+**/.DS_Store
+config.*
