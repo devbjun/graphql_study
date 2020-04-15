@@ -1,5 +1,5 @@
 {
-  "name": "week_1",
+  "name": "app",
   "version": "1.0.0",
   "description": "GraphQL Study",
   "main": "server.ts",
